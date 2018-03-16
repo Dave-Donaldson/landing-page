@@ -1,0 +1,135 @@
+html{
+    width: 100%;
+    Height:100%;
+    background: #d9dbdd;
+
+}
+
+body .container{
+    margin: 0 auto;
+    width:90%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    background: white;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 7px 9px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 7px 9px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 7px 9px 1px rgba(0,0,0,0.75);
+}
+
+/* *****************************START OF HEADER****************************************** */
+
+body .container header {
+    width:100%;
+    margin:0 auto;
+    height:60px;
+}
+
+body .container header .wrapper {
+    width:100%;
+    height:60px;
+    display:inline-block;
+    overflow:hidden;
+    background:#535456;
+}
+
+body .container header .wrapper a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body .container header .wrapper .logo .logo-img{
+    width:40px;
+    height:40px; 
+    border-radius: 50%;
+    position: relative;
+    top:10px;
+    left:90px;
+}
+
+
+body .container header .wrapper .nav ul{
+    text-align: center;
+    float: right;
+    width:50%;
+    position: relative;
+    top:-40px;
+    left:100px;
+}
+
+body .container header .wrapper .nav ul li{
+    display:inline-block;
+    text-align: right;
+    overflow:hidden;
+}
+
+body .container header .wrapper .nav ul li a{
+    font-size: 20px;
+    color:white;
+    padding:4px;
+}
+/* *****************************END OF HEADER****************************************** */
+
+
+body .container section{
+    height:900px;
+    width:100%;
+    
+}
+
+body .container section .top-section{
+    width: 100%;
+    height:100%;
+    height:400px;
+    
+}
+
+body .container section .top-section .banner{
+    margin:20px 0 0 0;
+    background-image: url("https://www.officestar.net/sys/img/slider/slide3.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.9;
+}
+
+body .container section h1{
+    display:inline-block;
+    position: relative;
+    left:145px;
+    color:#3b3c3d;
+    font-size: 30px;
+}
+
+body .container section #one {
+    display:inline-block;
+    width:70%;
+    position: relative;
+    top:7px;
+    left:170px;
+}
+
+body .container section h3{
+    display:inline-block;
+    position: relative;
+    top:80px;
+    left:-640px;
+    color:#3b3c3d;
+    font-size: 20px;
+}
+
+body .container section #two {
+    display:inline-block;
+    width:70%;
+    position: relative;
+    top:90px;
+    left:170px;
+}
+
+
+
+
+
+
+
